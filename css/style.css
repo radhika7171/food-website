@@ -233,7 +233,7 @@ top-banner Design
 */
 .top-banner {
   width: 100%;
-  background: url("../images/bg/food-8.jpg") no-repeat center;
+  background: url("../images/bg/food-7.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 9.375rem;
 }
@@ -253,6 +253,45 @@ counter Design
   text-transform: uppercase;
 }
 /* ==================
-custom CSS Design
+about section Design
 =====================
 */
+.about-section {
+  background: var(--white--color);
+}
+
+.about-section .card,
+.about-section .card img {
+  border-radius: 0.625rem;
+}
+
+.about-section.text-sec {
+  padding-left: 2rem;
+}
+/* ==================
+food type section Design
+=====================
+*/
+
+.food-type {
+  padding-top: 3.25rem;
+}
+
+.food-type ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 2rem;
+  margin-left: 2rem;
+}
+.story-section {
+  width: 100%;
+  height: 28.125rem;
+  background: url("../images/bg/food-13.png") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.story-section h2 {
+  color: var(--primary-color);
+}
