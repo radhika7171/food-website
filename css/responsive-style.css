@@ -39,7 +39,7 @@
   */
 }
 
-/*phone
+/*phone mobile
   */
 @media (max-width: 767px) {
   /*custom css
@@ -60,6 +60,10 @@
 
   /*story section
   */
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
 
   /*caraousel design
   */
